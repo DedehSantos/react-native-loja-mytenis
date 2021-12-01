@@ -3,8 +3,8 @@
   "expoServerPort": 19000,
   "packagerPort": 19000,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerNgrokUrl": "https://gd-n3t.anonymous.mytenis.exp.direct",
+  "packagerNgrokUrl": "https://packager.gd-n3t.anonymous.mytenis.exp.direct",
+  "ngrokPid": 2360,
   "webpackServerPort": null
 }

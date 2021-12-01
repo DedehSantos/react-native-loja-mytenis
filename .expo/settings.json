@@ -3,7 +3,7 @@
   "lanType": "ip",
   "dev": true,
   "minify": false,
-  "urlRandomness": null,
+  "urlRandomness": "gd-n3t",
   "https": false,
   "scheme": null,
   "devClient": false

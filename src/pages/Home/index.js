@@ -13,8 +13,8 @@ export default function Home() {
 
           <View style={styles.textContainer}>
             <Text style={styles.text}>TÊNIS</Text>
-            <Text style={styles.text}> - </Text>
-            <Text style={styles.text}>MASCULINO</Text>
+            <Text style={[styles.text , {color:'#CECECF'}]}> - </Text>
+            <Text style={[styles.text , {color:'#CECECF'}]}>MASCULINO</Text>
 
             <TouchableOpacity style={{position:'absolute', right: 0, alignSelf: "center" }}>
               <MaterialIcons
@@ -25,10 +25,16 @@ export default function Home() {
               />
             </TouchableOpacity>
           </View>   
-
-
-
            </View>
+
+           <View style={styles.line}/>
+
+           <ScrollView>
+             <Text style={styles.text}> LANÇAMENTOS </Text>
+           </ScrollView>
+
+
+
        </View>
   );
 }
@@ -47,11 +53,21 @@ const styles = StyleSheet.create({
   image:{
     width:'100%'
   },
-  
+
   textContainer:{
     flexDirection: 'row',
     marginVertical: '5%',
     marginHorizontal: '5%'
+  },
+
+  text:{
+    fontFamily: 'Anton_400Regular',
+    fontSize:26,
+    marginHorizontal:'1%'
+  },
+  line:{
+    borderBottomColor: '#D8D8D8',
+    borderBottomWidth:2,
   }
 
 })
