@@ -20,7 +20,7 @@ function Routes(){
             <Stake.Screen
               name="Detail"
               component={Detail}
-              options={{headerShown:false}}
+             
             />
         </Stake.Navigator>
     </NavigationContainer>

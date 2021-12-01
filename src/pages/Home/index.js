@@ -1,10 +1,15 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
+
+import {useNavigation} from '@react-navigation/native';
+
 import Shoes from '../../component/Shoes';
 
-
 export default function Home() {
+
+  
+const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -34,10 +39,10 @@ export default function Home() {
       <ScrollView>
         <Text style={styles.text}> LANÇAMENTOS </Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/1.png')} cost="S$140,90" onClick={()=> alert('clica não carai')}>
+          <Shoes img={require('../../assets/1.png')} cost="S$140,90" onClick={()=> navigation.navigate('Detail')}>
             Nike Air Max Dia
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="S$280,90" onClick={()=> alert('clica não carai')} >
+          <Shoes img={require('../../assets/2.png')} cost="S$280,90" onClick={()=>navigation.navigate('Detail')} >
             Nike Downshiftfer 10
           </Shoes>
 
