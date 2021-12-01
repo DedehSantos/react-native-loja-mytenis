@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text,StyleSheet, ScrollView, Image, TouchableOpacity } from 'react-native';
-import {MaterialIcons} from '@expo/vector-icons'
+import {MaterialIcons} from '@expo/vector-icons';
+import Shoes from '../../component/Shoes';
+
 
 export default function Home() {
  return (
@@ -31,6 +33,13 @@ export default function Home() {
 
            <ScrollView>
              <Text style={styles.text}> LANÇAMENTOS </Text>
+             <View style={{flexDirection: 'row', justifyContent:'space-around' }}>
+              <Shoes/>
+              <Shoes/>
+
+
+             </View>
+
            </ScrollView>
 
 
