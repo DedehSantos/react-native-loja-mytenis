@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Image, ScrollView, StyleSheet } from 'react-native';
 import Dot from '../../component/Dot';
 import SizeButton from '../../component/SizeButton';
+import Button from '../../component/Button';
 
 export default function Detail({ navigation }) {
     navigation.setOptions({
@@ -46,11 +47,19 @@ export default function Detail({ navigation }) {
                     <Text>
                         O tenis masculino Nike DoensShifer 10 traz amorotecimento e suporte atualizado para garantir um conformto
                     </Text>
-                    <Text> - Categorai : Amortecimento
+                    <Text style={styles.textList}>
+                        - Categorai : Amortecimento
                     </Text>
-                    
+                    <Text style={styles.textList}>
+                        - Materia
+                    </Text>
 
                 </View>
+                <View>
+                    
+                     </View>
+
+<Button/>
 
 
             </View>

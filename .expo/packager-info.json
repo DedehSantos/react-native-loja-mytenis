@@ -1,3 +1,8 @@
 {
-  "webpackServerPort": 19006
+  "expoServerNgrokUrl": "https://9b-twj.anonymous.mytenis.exp.direct",
+  "packagerNgrokUrl": "https://packager.9b-twj.anonymous.mytenis.exp.direct",
+  "ngrokPid": 16060,
+  "expoServerPort": 19000,
+  "devToolsPort": 19002,
+  "packagerPort": 19000
 }
