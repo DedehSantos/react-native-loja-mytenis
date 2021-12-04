@@ -15,7 +15,7 @@ export default function Footer() {
                    </Shoes>
                </View>
                <View style={{marginHorizontal: 10}}>
-                   <Shoes img={require('../../assets/2.png')}cost="150,90">
+                   <Shoes img={require('../../assets/5.png')}cost="150,90">
                    Nike Revolution 6 Next Nature
                    </Shoes>
                </View>
@@ -24,21 +24,7 @@ export default function Footer() {
                    Nike Revolution 6 Next
                    </Shoes>
                </View>
-               <View style={{marginHorizontal: 10}}>
-                   <Shoes img={require('../../assets/4.png')} cost="540,90">
-                   Nike Mc Trainer Masculino
-                   </Shoes>
-               </View>
-               <View style={{marginHorizontal: 10}}>
-                   <Shoes img={require('../../assets/5.png')} cost="190,90" >
-                   Nike Superrep Go 2 Masculino
-                   </Shoes>
-               </View>
-               <View style={{marginHorizontal: 10}}>
-                   <Shoes img={require('../../assets/6.png')} cost="230,90">
-                   Nike City Rep Tr Masculino
-                   </Shoes>
-               </View>
+             
 
            </ScrollView>
        </View>

@@ -2,8 +2,6 @@ import React from 'react';
 import { View, Text, Image, ScrollView, StyleSheet } from 'react-native';
 import Dot from '../../component/Dot';
 import SizeButton from '../../component/SizeButton';
-import Button from '../../component/Button';
-import Footer from '../../component/Footer';
 
 export default function Detail({ navigation }) {
     navigation.setOptions({
@@ -42,26 +40,19 @@ export default function Detail({ navigation }) {
                 </View>
 
                 <View style={styles.textContainer}>
-                    <Text style={styles.title}>
+                    <Text>
                         Nike DoensShifer 10
-                    </Text >
-                    <Text style={styles.textContainer}>
+                    </Text>
+                    <Text>
                         O tenis masculino Nike DoensShifer 10 traz amorotecimento e suporte atualizado para garantir um conformto
                     </Text>
-                    <Text style={styles.textList}>
-                        - Categorai : Amortecimento
+                    <Text> - Categorai : Amortecimento
                     </Text>
-                    <Text style={styles.textList}>
-                        -Material : Borracha
-                    </Text>
+                    
 
                 </View>
 
-                <Button />
 
-                <View  style={styles.line}> </View>
-
-                <Footer/>
             </View>
 
         </ScrollView>
@@ -87,31 +78,5 @@ const styles = StyleSheet.create({
     dotContainer: {
         flexDirection: 'row',
         marginVertical: '7%'
-    },
-    TextContiner: {
-        fontSize: 16,
-        lineHeight: 25,
-        marginVertical: '2%',
-        marginHorizontal: '2%',
-    },
-
-    textTitle: {
-
-        fontSize: 22,
-        lineHeight: 25,
-        marginVertical: '2%'
-    },
-
-    textList: {
-        fontSize: 16,
-        lineHeight: 25,
-
-    },
-    line:{
-        borderWidth: 1,
-        borderBottomColor: '#DDD',
-        marginVertical: '2%'
-
     }
-
 })
