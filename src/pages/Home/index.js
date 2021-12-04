@@ -42,7 +42,7 @@ const navigation = useNavigation();
           <Shoes img={require('../../assets/1.png')} cost="S$140,90" onClick={()=> navigation.navigate('Detail')}>
             Nike Air Max Dia
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="S$280,90" onClick={()=>navigation.navigate('Detail')} >
+          <Shoes img={require('../../assets/2.png')} cost="S$280,90" onClick={()=> navigation.navigate('Detail')} >
             Nike Downshiftfer 10
           </Shoes>
 
@@ -50,20 +50,20 @@ const navigation = useNavigation();
 
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/3.png')} cost="S$560,90" onClick={()=> alert('clica não carai')}>
+          <Shoes img={require('../../assets/3.png')} cost="S$560,90" onClick={()=>  navigation.navigate('Detail')} >
             Nike Squidward
           </Shoes>
-          <Shoes img={require('../../assets/5.png')} cost="S$220,90" onClick={()=> alert('clica não carai')}>
+          <Shoes img={require('../../assets/5.png')} cost="S$220,90" onClick={()=>  navigation.navigate('Detail')} >
             Nike React Flyknit 2
           </Shoes>
 
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/5.png')} cost="S$160,90" onClick={()=> alert('clica não carai')} >
+          <Shoes img={require('../../assets/5.png')} cost="S$160,90" onClick={()=>  navigation.navigate('Detail')} >
             Nike Joyride Ron
           </Shoes>
-          <Shoes img={require('../../assets/6.png')} cost="S$920,90" onClick={()=> alert('clica não carai')} >
+          <Shoes img={require('../../assets/6.png')} cost="S$920,90" onClick={()=>  navigation.navigate('Detail')} >
             Nike Air Dia Sujeito Programador
           </Shoes>
 
